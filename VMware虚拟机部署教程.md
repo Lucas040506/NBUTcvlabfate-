@@ -57,8 +57,9 @@
 
 
 7.输入完成后软件可能会要求重启系统，重启系统后进入软件，没有弹许可证提示并且可以看到这个界面就是安装完成了。
-
-![image-20240709135508010](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709135508010.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709135508010.png">
+</p>
 
 ### 新建虚拟机
 
@@ -72,87 +73,105 @@ centos的驱动可以从国外官网或者国内镜像进行下载，也可以�
 
 想下载centos7的同学用上面这个网址就可以了，centos8可以在清华源阿里源都可以找，比较方便就不多说明了,一般下dvd版本的就可以了，如果下载boot版本的话只包含基本启动引导的文件，需要联网下载其他内容，在网络不好的情况下不建议使用。
 
-![image-20240709141707665](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709141707665.png)
-
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709141707665.png">
+</p>
 我下载的是这个版本
-
-![image-20240709142030721](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709142030721.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709142030721.png">
+</p>
 
 2.开始创建自己的虚拟机
 
 点击创建新的虚拟机，会弹出一个新建向导，新手开始使用时建议选择典型就可以了，需要配置的参数比较少，更方便一些。点击下一步。
-
-![image-20240709142258555](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709142258555.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709142258555.png">
+</p>
 
 选择稍后安装操作系统，点击下一步.
-
-![image-20240709142446655](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709142446655.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709142446655.png">
+</p>
 
 客户机操作系统选择Linux，版本要与之前下载的centos版本相匹配，如果你下的是7就选7，下的是8就选8。安装Ubuntu的同学可以选Ubuntu的版本。选择完成后点击下一步。
-
-![image-20240709142504769](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709142504769.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709142504769.png">
+</p>
 
 为自己的虚拟机取一个名字，并选择安装的位置，完成后点击下一步
-
-![image-20240709142817512](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709142817512.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709142817512.png">
+</p>
 
 将最大的磁盘大小调的尽可能大一些，后续做fate的学习的时候如果磁盘太小了会跑不起来。
 
 选择将虚拟磁盘拆分为多个文件（M），后面如果要移动虚拟机的位置这样不会报错。
 
 两个操作都完成后点击下一步。
-
-![image-20240709143014960](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709143014960.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709143014960.png">
+</p>
 
 完成这一步后我们会见到这样的一个虚拟机创建向导界面，我们需要自定义一些硬件条件。
 
-
-
-![image-20240709143209334](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709143209334.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709143209334.png">
+</p>
 
 点开自定义硬件
 
 内存设置为4或者8，不然会比较卡，具体可以根据自己的电脑配置做调整。
-
-![image-20240709143235938](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709143235938.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709143235938.png">
+</p>
 
 处理器数量为1，处理器内核我设置的是4个，具体数量可以根据自己电脑配置做调整。如果后面想做fate集群部署的话我们需要将内核数调整为8个或者16个，不然安装的时候会报错。
-
-![image-20240709143520816](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709143520816.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709143520816.png">
+</p>
 
 接下来配置cd驱动文件，点击新CD/DVD(IDE)，连接选择使用ISO映像文件，将之前下载的centos的dvd文件路径放入这个位置。
-
-![image-20240709143743195](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709143743195.png)
-
-
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709143743195.png">
+</p>
 
 剩下的四个选项初学者一般不做调整，网络适配器默认NAT，显示器用主机设定即可，点击关闭后可以在向导界面看到刚刚我们做的配置。
-
-![image-20240709144014476](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709144014476.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709144014476.png">
+</p>
 
 点击完成，可以看到我们的虚拟机列表里多了一个刚刚创建的虚拟机，选中并点击开启此虚拟机。虚
-
-![image-20240709145221762](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709145221762.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709145221762.png">
+</p>
 
 中途有一个选项直接回车就行，可以看到虚拟机正在启动，等待完成。
-
-![image-20240709145351923](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709145351923.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709145351923.png">
+</p>
 
 完成后会跳转到这样的一个初始化配置界面，我们将左边的这个选项条拖到最下面，选择简体中文，选择好以后点击continue。
-
-![image-20240709145507040](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709145507040.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709145507040.png">
+</p>
 
 会进入到这样一个引导界面，选择键盘进行添加，选择英语（英国）进行添加，添加好后点击完成。
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709150448726.png">
+</p>
 
-![image-20240709150448726](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709150448726.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709153711893.png">
+</p>
 
-![image-20240709153711893](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709153711893.png)
-
-![image-20240709155806895](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709155806895.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709155806895.png">
+</p>
 
 点击软件选择，选择带GUI的服务器，这样的话安装完以后会有一个图形控制界面，方便初学者的使用，如果之前有使用过Linux系统的经验的同学可以选择最小安装，这样的话就只有命令行模式。
-
-![image-20240709161059217](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709161059217.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709161059217.png">
+</p>
 
 接下来是存储空间的配置
 
@@ -163,12 +182,16 @@ centos的驱动可以从国外官网或者国内镜像进行下载，也可以�
 自动创建完成后，我会习惯将根目录的空间调大一些，你们可以参照我的截图中空间的分配进行分配。
 
 点击完成，点击接受更改。
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709163903020.png">
+</p>
 
-![image-20240709163903020](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709163903020.png)
-
-![image-20240709163920161](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709163920161.png)
-
-![image-20240709163945898](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709163945898.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709163920161.png">
+</p>
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709163945898.png">
+</p>
 
 接下来是修改网络与主机名，
 
@@ -177,29 +200,36 @@ centos的驱动可以从国外官网或者国内镜像进行下载，也可以�
 再修改主机名，根据自己的需求进行修改，这里我改的是fate
 
 点击应用，全部操作完成后可以看到引导界面变成我现在这个样子，当前主机名为你修改后的名字。
-
-![image-20240709164209782](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709164209782.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709164209782.png">
+</p>
 
 点击完成，到此你已经完成了虚拟机的所有配置，点击开始安装，安装属于你自己的虚拟机。
 
 在安装过程中可以看到这样的两个选项，先点击root密码。
-
-![image-20240709164316429](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709164316429.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709164316429.png">
+</p>
 
 设置自己的root密码，这边建议设置比较短的密码，以后经常要用的。密码过短需要连续点击两次完成才可以通过。
 
 记住这个密码，后面用到和管理员权限有关的很多操作都需要用到这个密码，所以一定要记住。
-
-![image-20240709164357853](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709164357853.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709164357853.png">
+</p>
 
 接下来开始创建自己的用户，这些信息都自行输入即可，这个是用于虚拟机初始界面的登录。
-
-![image-20240709164651725](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709164651725.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709164651725.png">
+</p>
 
 点击重启
-
-![image-20240709165129603](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709165129603.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709165129603.png">
+</p>
 
 同意licensing，到此就完成了虚拟机的部署。
+<p style="text-align: center;">
+    <img alt="1" src="photo/image-20240709165817753.png">
+</p>
 
-![image-20240709165817753](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240709165817753.png)
