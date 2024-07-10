@@ -26,7 +26,10 @@
 
 3.下载成功后会有一个exe文件，直接运行进行安装
 
-![微信图片_20240709134827](G:\NBUTcvlab_fate_studying\fate_study\微信图片_20240709134827.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/1.png">
+</p>
+
 
 4.勾选这两个选项
 
