@@ -33,17 +33,28 @@
 
 4.勾选这两个选项
 
-![微信图片_20240709134918](G:\NBUTcvlab_fate_studying\fate_study\微信图片_20240709134918.png)
+<p style="text-align: center;">
+    <img alt="2" src="photo/2.png">
+</p>
+
 
 5.安装完成后选择许可证选项
 
-![微信图片_20240709134926](G:\NBUTcvlab_fate_studying\fate_study\微信图片_20240709134926.png)
+<p style="text-align: center;">
+    <img alt="3" src="photo/3.png">
+</p>
 
-![微信图片_20240709134930](G:\NBUTcvlab_fate_studying\fate_study\微信图片_20240709134930.png)
+<p style="text-align: center;">
+    <img alt="4" src="photo/4.png">
+</p>
+
 
 6.输入许可证，可使用自己找的，也可以输这个：JU090-6039P-08409-8J0QH-2YR7F
 
-![微信图片_20240709134935](G:\NBUTcvlab_fate_studying\fate_study\微信图片_20240709134935.png)
+<p style="text-align: center;">
+    <img alt="5" src="photo/5.png">
+</p>
+
 
 7.输入完成后软件可能会要求重启系统，重启系统后进入软件，没有弹许可证提示并且可以看到这个界面就是安装完成了。
 
