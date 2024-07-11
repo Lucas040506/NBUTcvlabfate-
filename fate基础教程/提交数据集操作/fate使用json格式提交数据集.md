@@ -23,9 +23,9 @@ fate官方提供的数据集提交文件位置：首先找到目录examples/dsl/
 以截图中的文件为例，testsuite.json格式文件内每一块data都对应的一个数据集，file指向的就是数据集的位置，如红色部分中这个文件就是breast_hetero_host.csv数据集的提交文件。我们需要将红色区域指出的括号内所有内容复制下来，新建成一个数据提交文件，其中file的路径需要准确的只想到数据集所在的位置，不然可能会报错找不到文件。
 
 ###### 2.使用指令进行提交
-
+```
 flow data upload -c xxxx.json（刚刚编写的文件名）
-
+```
 提交成功后会有一个提交成功的提示，类似于下方的图片。
 
 <p style="text-align: center;">
@@ -37,7 +37,7 @@ flow data upload -c xxxx.json（刚刚编写的文件名）
 ###### 如果你想提交自己的数据集，那么你需要学会针对数据集进行修改提交的json文件。
 
 我在这里主要说明json文件中各个参数的含义，具体修改方法需要你自己多做尝试，熟悉参数的修改操作。
-
+```
 {
             "file": "examples/data/breast_hetero_host.csv",
             "head": 1,
@@ -46,7 +46,7 @@ flow data upload -c xxxx.json（刚刚编写的文件名）
             "namespace": "experiment",
             "role": "host_0"
         }
-
+```
 ###### 参数
 
 file: file path 
