@@ -7,9 +7,9 @@
 </div>
 
 ### 目前更新的内容有
-[1.VMware虚拟机的安装和docker的安装](./VMware虚拟机的安装和docker的安装.md)
+[1.VMware虚拟机的安装和docker的安装](./VMware虚拟机部署教程.md)
 
-[2.使用docker拉取部署fate单机版](./2.使用docker拉取部署fate单机版.md)
+[2.使用docker拉取部署fate单机版](./fate部署教程（docker安装和fate镜像拉取以及启动教程）.md)
 
 ### 未来我们还将补充的内容有
 
