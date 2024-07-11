@@ -31,7 +31,7 @@ yum -y updata
 yum install -y yum-utils device-mapper-persistent-data lvm2
 
 <p style="text-align: center;">
-    <img alt="1" src="photo/docker部署fate/image-20240711125442779.png">
+    <img alt="1" src="photo/docker部署fate/image-20240711125301917.png">
 </p>
 
 ##### 4.设置yum源
@@ -83,7 +83,9 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 ##### 7.启动docker并设置为开机自启动
 
 [root@fate lucas]# systemctl start docker
+
 [root@fate lucas]# systemctl enable docker
+
 <p style="text-align: center;">
     <img alt="1" src="photo/docker部署fate/image-20240711125914794.png">
 </p>
