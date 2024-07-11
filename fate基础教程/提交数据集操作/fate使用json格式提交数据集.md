@@ -15,7 +15,10 @@ fate官方提供了很多的官方数据集以及对应的以及编写完成的j
 
 fate官方提供的数据集提交文件位置：首先找到目录examples/dsl/v2，可以看到fate所有组件的列表，点进去任意一个文件夹，都会有一个xxxx_testsuite.json格式的文件，进入后可以看到内容主要分为两大类，分别是data和tasks。在这里我们主要用到的是data这部分。
 
-![image-20240711161657497](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711161657497.png)
+<p style="text-align: center;">
+    <img alt="1" src="/photo/fate提交数据集/image-20240711161657497.png">
+</p>
+
 
 以截图中的文件为例，testsuite.json格式文件内每一块data都对应的一个数据集，file指向的就是数据集的位置，如红色部分中这个文件就是breast_hetero_host.csv数据集的提交文件。我们需要将红色区域指出的括号内所有内容复制下来，新建成一个数据提交文件，其中file的路径需要准确的只想到数据集所在的位置，不然可能会报错找不到文件。
 
@@ -25,7 +28,9 @@ flow data upload -c xxxx.json（刚刚编写的文件名）
 
 提交成功后会有一个提交成功的提示，类似于下方的图片。
 
-![image-20240711165731211](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711165731211.png)
+<p style="text-align: center;">
+    <img alt="1" src="/photo/fate提交数据集/image-20240711165731211.png">
+</p>
 
 到此，你就完成了数据集的提交操作。
 
