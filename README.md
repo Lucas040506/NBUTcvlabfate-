@@ -1,6 +1,6 @@
   <div>
     <a href="https://blog.sunguoqi.com/">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);为了方便未来cv实验室学弟在隐私计算方向的学习，Lucas和Franklin决定将这段时间在隐私计算方向学习的内容总结一下，为大家整理一份学习路线指导&&教学。&center=true&size=20" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=为了方便未来cv实验室学弟在隐私计算方向的学习，Lucas和Franklin决定将这段时间在隐私计算方向学习的内容总结一下，为大家整理一份学习路线指导&&教学。&center=true&size=10" />
     </a>
   </div>
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" /></div>
