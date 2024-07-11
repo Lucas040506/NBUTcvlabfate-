@@ -30,7 +30,9 @@ yum -y updata
 
 yum install -y yum-utils device-mapper-persistent-data lvm2
 
-![image-20240711125301917](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711125301917.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711125442779.png">
+</p>
 
 ##### 4.设置yum源
 
@@ -50,12 +52,17 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
     --add-repo \
     https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/centos/docker-ce.repo
 
-![image-20240711125442779](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711125442779.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711125442779.png">
+</p>
 
 ##### 5.查看源仓库中所有docker的版本号
 
 [root@fate lucas]#  yum list docker-ce --showduplicates | sort -r
 
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711125442779.png">
+</p>
 ![image-20240711125534455](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711125534455.png)
 
 ##### 6.安装docker engine-community
@@ -65,8 +72,9 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 [root@localhost ~]# yum install docker-ce docker-ce-cli containerd.io    #  默认最新版
 
 安装过程中会有[Y/N]的提示，直接选Y就行了
-
-![image-20240711125058801](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711125058801.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711125058801.png">
+</p>
 
 ###### 6.2 安装指定版本的docker
 
@@ -76,14 +84,16 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 
 [root@fate lucas]# systemctl start docker
 [root@fate lucas]# systemctl enable docker
-
-![image-20240711125914794](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711125914794.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711125914794.png">
+</p>
 
 ##### 8.查看是否安装成功
 
 使用docker -v或者docker version查看自己的docker版本号，能显示就是成功了。
-
-![image-20240711130057739](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711130057739.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711130057739.png">
+</p>
 
 ## 至此你已经完成了docker的安装，接下来我们要开始学习拉取fate框架的docker镜像。
 
@@ -135,8 +145,9 @@ docker images | grep federatedai/standalone_fate
 拉取完成后如果可以看到对应的${version}的镜像就下载成功了。
 
 可以用docker images来查看自己的docker已经拉取的镜像文件
-
-![image-20240711132536326](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711132536326.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711132536326.png">
+</p>
 
 #### 4.启动
 
@@ -144,7 +155,9 @@ docker run -it --name standalone_fate -p 8080:8080 federatedai/standalone_fate:$
 
 启动完成后可以看到自己已经进入到fate容器中，lucas变成了fate
 
-![image-20240711132747373](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711132747373.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711132747373.png">
+</p>
 
 #### 5.测试
 
@@ -152,7 +165,9 @@ docker run -it --name standalone_fate -p 8080:8080 federatedai/standalone_fate:$
 
 source bin/init_env.sh
 
-![image-20240711132850950](C:\Users\lucas\AppData\Roaming\Typora\typora-user-images\image-20240711132850950.png)
+<p style="text-align: center;">
+    <img alt="1" src="photo/docker部署fate/image-20240711132850950.png">
+</p>
 
 ##### 5.1 Toy测试
 
