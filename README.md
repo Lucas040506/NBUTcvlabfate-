@@ -1,4 +1,4 @@
-## 在本篇文章中，我将根据自己所学内容，总结从VM虚拟机安装到使用docker部署单机版fate的教程，如果有什么不清楚或者讲错的地方，请大家留言指出
+## 为了方便未来cv实验室学弟在隐私计算方向的学习，Lucas和Franklin决定将这段时间在隐私计算方向学习的内容总结一下，为大家整理一份学习路线指导&&教学。
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" /></div>
 </div>
 
