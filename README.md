@@ -11,7 +11,7 @@
 
 [2.使用docker拉取部署fate单机版](./fate部署教程（docker安装和fate镜像拉取以及启动教程）.md)
 
-[3.fate使用json格式和pipeline进行数据提交操作](./fate基础教程/提交数据集操作.md)
+[3.fate使用json格式和pipeline进行数据提交操作](./fate基础教程/提交数据集操作)
 ### 未来我们还将补充的内容有
 
 ###### ·fate使用pipeline进行数据提交操作
