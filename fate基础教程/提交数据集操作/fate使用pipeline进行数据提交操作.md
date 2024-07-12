@@ -201,5 +201,5 @@ predict_pipeline.predict()
 
 ## 加载本地文件到 DataFrame
 
-PipeLine 提供了将本地数据表转换为 FATE DataFrame 的功能。有关快速示例，请参阅此[演示](https://github.com/FederatedAI/FATE/tree/master/doc/tutorial/pipeline_tutorial_transform_local_file_to_dataframe.ipynb)
+PipeLine 提供了将本地数据表转换为 FATE DataFrame 的功能。有关快速示例，请参阅此[fate官网的演示](https://github.com/FederatedAI/FATE/tree/master/doc/tutorial/pipeline_tutorial_transform_local_file_to_dataframe.ipynb)
 
