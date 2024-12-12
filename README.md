@@ -27,6 +27,6 @@ fate使用pipeline进行数据提交操作
 ......
 
 ### 干货推荐
-[1.docker export save import load区别]
+[1.docker export save import load区别](./干货推荐/docker export save import load区别.md)
 
 如果大家还对某些功能比较好奇可以留言，未来我们也会做学习并共享给大家。
