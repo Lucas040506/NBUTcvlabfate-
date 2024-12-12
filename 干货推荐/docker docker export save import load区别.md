@@ -5,7 +5,7 @@
 先来看一下四种方法常用的命令形式
 save
 下面这段代码就是将myimage：latest保存为一个名字为myimage.tar的压缩文件
-'''
+'''python
 docker save [OPTIONS] NAME[:TAG|@DIGEST]
 docker save -o myimage.tar myimage:latest
 '''
