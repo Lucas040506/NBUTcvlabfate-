@@ -16,7 +16,7 @@
 [4.fate使用pipeline进行数据提交操作](./fate基础教程/提交数据集操作/fate使用pipeline进行数据提交操作.md)
 ### 未来我们还将补充的内容有
 
-fate使用pipeline进行数据提交操作
+###### ·fate使用pipeline进行数据提交操作
 
 ###### ·fate使用dsl和conf进行任务提交操作
 
