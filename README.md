@@ -39,7 +39,7 @@
 
 <p align="left">
     <a href="[https://github.com/Lucas040506/NBUTcvlabfate-/graphs/contributors">
-        <img width="770" src="https://contrib.rocks/image?repo=krahets/hello-algo&max=300&columns=16" />
+        <img width="770" src="https://contrib.rocks/image?repo=Lucas040506/NBUTcvlabfate-&max=300&columns=16" />
     </a>
 </p>
 
