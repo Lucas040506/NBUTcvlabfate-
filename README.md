@@ -38,8 +38,8 @@
 感谢本项目的每一位撰稿人，是他们的无私奉献让项目变得更好，他们是：
 
 <p align="left">
-    <a href="[https://github.com/Lucas040506/NBUTcvlabfate-/graphs/contributors">
-        <img width="770" src="https://contrib.rocks/image?repo=Lucas040506/NBUTcvlabfate-&max=300&columns=16" />
+    <a href="[https://github.com/Lucas040506/NBUcvlabfate-/graphs/contributors">
+        <img width="180" src="https://contrib.rocks/image?repo=Lucas040506/NBUTcvlabfate-&max=300&columns=16" />
     </a>
 </p>
 
