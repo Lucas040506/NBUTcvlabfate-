@@ -30,3 +30,6 @@
 [1.docker export save import load区别](./干货推荐/docker%20export%20save%20import%20load区别.md)
 
 如果大家还对某些功能比较好奇可以留言，未来我们也会做学习并共享给大家。
+
+### Q
+##### ·后续会加入目标检测的内容，包括各个版本的yolo，mambayolo以及google开源的mediapipe的实际应用教学
