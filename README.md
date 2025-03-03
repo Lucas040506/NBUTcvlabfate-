@@ -33,3 +33,12 @@
 
 ### Q
 ##### ·后续会加入目标检测的内容，包括各个版本的yolo，mambayolo以及google开源的mediapipe的实际应用教学
+
+感谢本项目的每一位撰稿人，是他们的无私奉献让这本书变得更好，他们是：
+
+<p align="left">
+    <a href="https://github.com/krahets/hello-algo/graphs/contributors">
+        <img width="770" src="https://contrib.rocks/image?repo=krahets/hello-algo&max=300&columns=16" />
+    </a>
+</p>
+
