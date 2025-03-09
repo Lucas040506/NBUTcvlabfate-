@@ -366,7 +366,7 @@ if __name__ == '__main__':
     device = get_device()
     print(f"Using device: {device}")
 
-    model = ImprovedVGG16(num_classes=5).to(device)
+    model = ImprovedVGG16(num_classes=10).to(device)
     criterion = nn.CrossEntropyLoss()
     #optimizer = optim.SGD(model.parameters(), lr=0.00001, momentum=0.9)
     optimizer = optim.Adam(model.parameters(), lr=0.01)
@@ -404,7 +404,7 @@ if __name__ == '__main__':
     patience = 10
     wait = 0
 
-    for epoch in range(10):
+    for epoch in range(100):
         model.train()
         correct, total, running_loss = 0, 0, 0.0
         for inputs, labels in train_loader:
