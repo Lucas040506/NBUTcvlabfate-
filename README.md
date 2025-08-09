@@ -1,8 +1,4 @@
-  <div>
-    <a href="https://blog.sunguoqi.com/">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&width=1000&lines=Lucas和Frank将这段时间在隐私计算和目标检测的学习内容总结为大家整理了一份学习路线指导/教学&center=true&size=20" />
-    </a>
-  </div>
+
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" /></div>
 </div>
 
